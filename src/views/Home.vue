@@ -1,13 +1,9 @@
 <template>
   <div class="home">
+    <Header />
     <!-- <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />-->
     <b-container fluid class="bv-example-row">
-      <b-row>
-        <b-col>
-          <Header />
-        </b-col>
-      </b-row>
       <b-row>
         <b-col>
           <HomeCards />

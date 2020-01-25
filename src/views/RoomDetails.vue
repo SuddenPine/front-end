@@ -1,9 +1,33 @@
 <template>
-  <h1>This is room details page</h1>
+  <div class="home">
+    <!-- <img alt="Vue logo" src="../assets/logo.png" />
+    <HelloWorld msg="Welcome to Your Vue.js App" />-->
+    <b-container fluid class="bv-example-row">
+      <b-row>
+        <b-col>
+          <Header />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <HomeCards />
+        </b-col>
+      </b-row>
+    </b-container>
+  </div>
 </template>
 
 <script>
-export default {}
-</script>
+// @ is an alias to /src
+// import HelloWorld from '@/components/HelloWorld.vue'
+import Header from '@/components/Header.vue'
+import HomeCards from '@/components/HomeCards.vue'
 
-<style></style>
+export default {
+  name: 'home',
+  components: {
+    Header,
+    HomeCards
+  }
+}
+</script>

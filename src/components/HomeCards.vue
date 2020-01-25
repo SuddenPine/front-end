@@ -9,7 +9,7 @@
             img-alt="Image"
             img-top
             tag="article"
-            style="max-width: 30rem;"
+            style="margin:1em"
             class="mb-2"
           >
             <b-card-text>On in 3 rooms</b-card-text>
@@ -25,7 +25,7 @@
           img-alt="Image"
           img-top
           tag="article"
-          style="max-width: 30rem;"
+          style="margin:1em"
           class="mb-2"
         >
           <b-card-text>Comfort 20 °C</b-card-text>
@@ -44,7 +44,7 @@
             img-alt="Image"
             img-top
             tag="article"
-            style="max-width: 30rem;"
+            style="margin:1em"
             class="mb-2"
           >
             <b-card-text>Everything OK</b-card-text>
@@ -60,7 +60,7 @@
           img-alt="Image"
           img-top
           tag="article"
-          style="max-width: 30rem;"
+          style="margin:1em"
           class="mb-2"
         >
           <b-card-text>All closed</b-card-text>
