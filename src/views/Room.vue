@@ -1,5 +1,5 @@
 <template>
-  <h1>haha</h1>
+  <h1>This is the room page</h1>
 </template>
 
 <script>
