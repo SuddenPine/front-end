@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Room from '../views/Room.vue'
 import Monitor from '../views/Monitor.vue'
 import League from '../views/League.vue'
+import RoomDetails from '../views/RoomDetails.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/league',
     name: 'league',
     component: League
+  },
+  {
+    path: '/rooms/:room',
+    name: 'room-detail',
+    component: RoomDetails
   }
 ]
 
